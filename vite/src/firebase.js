@@ -1,9 +1,11 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
+// import dotenv from "dotenv";
+// dotenv.config();
 
 
 const firebaseConfig = {
-  apiKey:import.meta.env.VITE_FIREBASE_API_KEY ,
+  apiKey:"AIzaSyCzjFIBphCR7ltz9h8bB-OtDmsYA0XA4WI" ,
   authDomain: "mern-estate-56a1a.firebaseapp.com",
   projectId: "mern-estate-56a1a",
   storageBucket: "mern-estate-56a1a.appspot.com",
